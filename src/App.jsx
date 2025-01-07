@@ -23,10 +23,10 @@ const router = createBrowserRouter([
       {
         path: ":id",
         id: "note-details",
-        loader: noteItemLoader, // This loader is shared by both NoteItem and EditNote
+        loader: noteItemLoader,
         children: [
           {
-            index: true, // This makes the NoteItem component load by default for the `:id` route
+            index: true,
             element: <NoteItem />,
           },
           {

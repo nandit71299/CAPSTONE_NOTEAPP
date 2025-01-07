@@ -20,7 +20,7 @@ export const getNoteById = async (noteId) => {
 };
 
 export const addNote = async (note) => {
-  data.notes.push({ id: data.notes.length, ...note });
+  data.notes.push({ id: data.notes.length + 1, ...note });
   const response = data.notes;
 
   return response;
