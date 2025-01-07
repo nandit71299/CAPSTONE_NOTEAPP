@@ -28,5 +28,5 @@ async function loadEvents() {
 }
 
 export async function loader() {
-  return { notes: loadEvents() };
+  return { notes: await loadEvents() };
 }
