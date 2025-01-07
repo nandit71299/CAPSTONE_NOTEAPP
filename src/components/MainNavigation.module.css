@@ -1,0 +1,15 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+button {
+  color: white;
+  background-color: sandybrown;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}

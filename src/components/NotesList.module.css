@@ -1,0 +1,14 @@
+.mainContainer {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.noteCard {
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 5px rgb(224, 224, 224);
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
